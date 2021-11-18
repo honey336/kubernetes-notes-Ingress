@@ -25,6 +25,9 @@ In the case of NGINX, the Ingress controller is deployed in a pod along with the
  chmod 700 get_helm.sh
 ./get_helm.sh
 
+Helm installation for windows using chocolatey package manager - Run this on powershell as an administrator
+choco install kubernetes-helm
+
 ```
 
 ## 1. Add helm charts for Nginx Ingress into a server where you have kubectl and helm
